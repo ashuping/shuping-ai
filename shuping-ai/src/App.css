@@ -1,0 +1,22 @@
+:root {
+  --pal-a: #fff;
+  --pal-a-em: #d8d8e0;
+  --pal-b: #6bc7a2;
+  --pal-b-em: #439d87;
+  --pal-c: #a3d0d4;
+  --pal-c-em: #4da0a8;
+  --pal-d: #b274cf;
+  --pal-d-em: #5e7297;
+  --pal-e: #8a806e;
+  --pal-e-em: #755676;
+
+  --at-bg: var(--pal-b);
+  --at-txt: black;
+  --at-txt-em: var(--pal-b-em);
+}
+
+.top-level {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

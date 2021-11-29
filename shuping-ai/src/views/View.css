@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.view {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* border: 2px dashed var(--pal-c); */
+    padding: 2em;
+    font-family: sans-serif;
+}
+
+.view h1, h2, h3, th {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.view h1 {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.view h2 {
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+}
+
+.view a {
+    color: var(--pal-c-em);
+    text-decoration: none;
+    text-decoration-skip: true;
+    border-bottom: 2px solid;
+    font-weight: bold;
+    transition: color 0.25s;
+}
+
+.view a:hover {
+    color: var(--pal-c);
+}
+
+.view h1:nth-of-type(4n+0), h2:nth-of-type(4n+1), h3:nth-of-type(4n+2), th:nth-of-type(4n+0) {
+    color: var(--pal-b-em);
+    border-bottom-color: var(--pal-b-em);
+}
+.view h1:nth-of-type(4n+1), h2:nth-of-type(4n+2), h3:nth-of-type(4n+3), th:nth-of-type(4n+1) {
+    color: var(--pal-c-em);
+    border-bottom-color: var(--pal-c-em);
+}
+.view h1:nth-of-type(4n+2), h2:nth-of-type(4n+3), h3:nth-of-type(4n+0), th:nth-of-type(4n+2) {
+    color: var(--pal-d-em);
+    border-bottom-color: var(--pal-d-em);
+}
+.view h1:nth-of-type(4n+3), h2:nth-of-type(4n+0), h3:nth-of-type(4n+1), th:nth-of-type(4n+3) {
+    color: var(--pal-e-em);
+    border-bottom-color: var(--pal-e-em);
+}
+
+.view .view-sidebar {
+    border: 2px dashed var(--pal-b);
+    flex: 1 0 auto;
+
+    max-width: 20%;
+
+    padding: 1em;
+}
+
+.view .view-sidebar-image img {
+    margin: auto;
+    display: block;
+}
+
+.view .view-col-spacer {
+    /* border: 2px dashed var(--pal-c-em); */
+    flex: 1 1 auto;
+}
+
+.view .view-main-content {
+    /* border: 2px dashed var(--pal-d); */
+    border-left: 1px solid var(--pal-d-em);
+    flex: 10 0 auto;
+    max-width: 70%;
+    padding: 1em 1em 1em 2em;
+    text-align: justify;
+}
+
+.view .view-text-emphasized {
+    font-weight: bold;
+    color: var(--pal-d-em);
+}

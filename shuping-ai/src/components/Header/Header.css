@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.header a {
+    color: var(--pal-a);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.header {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+div.header-topbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--pal-d);
+}
+
+div.header-topbar-name {
+    padding: 0.5em 1.5em 0.5em 0.5em;
+    display: flex;
+    flex: 0 0 auto;
+    font-weight: bold;
+    font-size: larger;
+    color: var(--pal-d);
+    background-color: white;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+}
+
+div.header-menubar {
+    --pointiness: 0.5em;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--pal-d);
+
+}
+
+.header .lmenu {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0em 1em 0em 0.5em;
+    clip-path: polygon(0% 0%, calc( 100% - var(--pointiness) ) 0%, 100% 50%, calc( 100% - var(--pointiness) ) 100%, 0% 100%);
+    background-color: var(--pal-d-em);
+    cursor: pointer;
+}
+
+.header .lmenu-menu {
+    display: flex;
+    flex: 0 0 auto;
+    margin: auto;
+    color: white;
+}
+
+.header .qlinks {
+    display: flex;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .qlinks .qlinks-item {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0.5em 1em;
+    background-color: var(--pal-d-em);
+    clip-path: polygon(0% 0%, calc( 100% - var(--pointiness) ) 0%, 100% 50%, calc( 100% - var(--pointiness) ) 100%, 0% 100%, var(--pointiness) 50%);
+}
+
+.header .qlinks .qlinks-item.qlinks-flex-space {
+    flex: 0.1 0.1 auto;
+    background-color: var(--pal-d-em);
+}
+
+.header .menubar-end {
+    flex: 10 10 auto;
+    background-color: var(--pal-d-em);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, var(--pointiness) 50%);
+}
