@@ -1,30 +1,11 @@
 /* eslint-disable react/jsx-no-target-blank */
 
 import React from 'react';
-import { Menu } from 'react-feather';
 
 import '../View.css';
 
 function AboutMeView(){
     return <div className="view">
-        {/* <div className="view-sidebar">
-            <div className="view-sidebar-image">
-                <img 
-                    style={{width: "80%"}}
-                    src="/Headshot.jpg"
-                    alt="A picture of Alexis"
-                />
-            </div>
-            <div className="view-sidebar-vspace" />
-            <div className="view-sidebar-content">
-                <h1>Contact Me</h1>
-                <table>
-                    <tr><th>E-mail</th><td>sites@shuping.ai</td></tr>
-                    <tr><th></th><td>alexis.shuping@northwestern.edu</td></tr>
-                    <tr><th>Tel</th><td>(352) 559-9699</td></tr>
-                </table>
-            </div>
-        </div> */}
         <div className="view-col-spacer" />
         <div className="view-main-content">
             <h1>About Me</h1>

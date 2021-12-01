@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../View.css';
+
 function AcksView(){
     return <div className="acks-view">
         <h1>Acknowledgements</h1>
