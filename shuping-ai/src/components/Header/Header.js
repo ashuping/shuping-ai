@@ -30,11 +30,11 @@ function Header({menu_open, set_menu_open}){
 					My Publications
 				</div></Link>
 
-				{/* <div className="qlinks-item qlinks-flex-space" />
+				<div className="qlinks-item qlinks-flex-space" />
 				
 				<Link className="qlinks-item" to="/contact"><div className="qlinks-item-inner">
 					Contact
-				</div></Link> */}
+				</div></Link>
 
 				{/* <div className="qlinks-item qlinks-flex-space" />
 				

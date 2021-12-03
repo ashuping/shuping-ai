@@ -25,6 +25,7 @@ function PublicationsView(){
                 />
             </div>
         </div>
+        <div className="view-col-spacer" />
     </div>
 }
 
