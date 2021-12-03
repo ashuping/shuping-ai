@@ -45,7 +45,7 @@ div.header-menubar {
     padding: 0em 1em 0em 0.5em;
     clip-path: polygon(0% 0%, calc( 100% - var(--pointiness) ) 0%, 100% 50%, calc( 100% - var(--pointiness) ) 100%, 0% 100%);
     background-color: var(--pal-d-em);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .header .lmenu-menu {

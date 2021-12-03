@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import { Link } from 'react-router-dom'
-import { Menu } from 'react-feather'
+import { Link } from 'react-router-dom';
+// import { Menu } from 'react-feather';
 
 import './Header.css';
 
@@ -17,7 +17,7 @@ function Header({menu_open, set_menu_open}){
 				className="lmenu"
 				onClick={() => {set_menu_open(!menu_open)}}
 			>
-				<div className="lmenu-menu"><Menu /></div>
+				{/* <div className="lmenu-menu"><Menu /></div> */}
 			</div>
 			<div className="qlinks">
 				<Link className="qlinks-item" to="/about"><div className="qlinks-item-inner">
@@ -30,17 +30,17 @@ function Header({menu_open, set_menu_open}){
 					My Publications
 				</div></Link>
 
-				<div className="qlinks-item qlinks-flex-space" />
+				{/* <div className="qlinks-item qlinks-flex-space" />
 				
 				<Link className="qlinks-item" to="/contact"><div className="qlinks-item-inner">
 					Contact
-				</div></Link>
+				</div></Link> */}
 
-				<div className="qlinks-item qlinks-flex-space" />
+				{/* <div className="qlinks-item qlinks-flex-space" />
 				
 				<Link className="qlinks-item" to="/blog"><div className="qlinks-item-inner">
 					Blog
-				</div></Link>
+				</div></Link> */}
 			</div>
 			<div className="menubar-end" />
 		</div>
