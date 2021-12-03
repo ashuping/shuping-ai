@@ -11,7 +11,7 @@ function AboutMeView(){
             <h1>About Me</h1>
 
             <img 
-                style={{float: "right", maxWidth: "20%", margin: "2em"}}
+                style={{float: "right", width: "15em", margin: "2em"}}
                 src="/Headshot.jpg"
                 alt="A headshot of Alexis, standing in a forested area."
             />
