@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prod-start": "http-server -P http://localhost:8080/index.html build/"
+    "prod-start": "http-server -P http://localhost:8080 build/"
   },
   "eslintConfig": {
     "extends": [
